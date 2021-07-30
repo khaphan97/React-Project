@@ -10,7 +10,7 @@ import Home from "features/Home";
 import Product from "features/Product";
 import React from "react";
 import { useDispatch } from "react-redux";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
 	return (
 		<div className="app">
 			<div id="wrapper">
-				<Router>
+				<HashRouter>
 					<Header />
 					<Switch>
 						<Route path="/" exact>
@@ -64,7 +64,7 @@ function App() {
 					</Switch>
 					<ScrollToTop />
 					<Footer />
-				</Router>
+				</HashRouter>
 			</div>
 		</div>
 	);
