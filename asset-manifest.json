@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-Project/static/css/main.1b7e2baa.chunk.css",
+    "main.js": "/React-Project/static/js/main.17c36fa0.chunk.js",
+    "main.js.map": "/React-Project/static/js/main.17c36fa0.chunk.js.map",
+    "runtime-main.js": "/React-Project/static/js/runtime-main.490e4995.js",
+    "runtime-main.js.map": "/React-Project/static/js/runtime-main.490e4995.js.map",
+    "static/css/2.eeb09b4e.chunk.css": "/React-Project/static/css/2.eeb09b4e.chunk.css",
+    "static/js/2.f83f6ea0.chunk.js": "/React-Project/static/js/2.f83f6ea0.chunk.js",
+    "static/js/2.f83f6ea0.chunk.js.map": "/React-Project/static/js/2.f83f6ea0.chunk.js.map",
+    "index.html": "/React-Project/index.html",
+    "static/css/2.eeb09b4e.chunk.css.map": "/React-Project/static/css/2.eeb09b4e.chunk.css.map",
+    "static/css/main.1b7e2baa.chunk.css.map": "/React-Project/static/css/main.1b7e2baa.chunk.css.map",
+    "static/js/2.f83f6ea0.chunk.js.LICENSE.txt": "/React-Project/static/js/2.f83f6ea0.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/React-Project/static/media/slick.c94f7671.ttf",
+    "static/media/slide1.d86ac893.jpg": "/React-Project/static/media/slide1.d86ac893.jpg",
+    "static/media/slide2.bee3c45e.jpg": "/React-Project/static/media/slide2.bee3c45e.jpg",
+    "static/media/slide3.cfe7fc0c.jpg": "/React-Project/static/media/slide3.cfe7fc0c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.490e4995.js",
+    "static/css/2.eeb09b4e.chunk.css",
+    "static/js/2.f83f6ea0.chunk.js",
+    "static/css/main.1b7e2baa.chunk.css",
+    "static/js/main.17c36fa0.chunk.js"
+  ]
+}
