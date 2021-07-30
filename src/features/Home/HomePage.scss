@@ -1,0 +1,42 @@
+@import '../../assets/css/_variables.scss';
+@import '../../assets/css/_mixin.scss';
+
+
+.banner-sub {
+    .banner-item {
+        position: relative;
+        overflow: hidden;
+        img {
+            transition: all 0.35s ease-in-out;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+
+        .text-box {
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            width: 30%;
+            line-height: 2.2rem;
+            text-align: right;
+
+            .text-title {
+                color: $hover-color;
+                font-weight: 600;
+                font-size: 2.2rem;
+            }
+
+            .text-subTitle {
+                color: #fff;
+                font-family: "Roboto", sans-serif;
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin: 10px 0;
+            }
+        }
+    }
+}

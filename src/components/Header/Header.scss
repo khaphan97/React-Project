@@ -1,0 +1,88 @@
+@import "../../assets/css/_variables.scss";
+@import "../../assets/css/_mixin.scss";
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background: black;
+
+    .container {
+        padding: 10px;
+
+        .header-logo {
+            max-width: 150px;
+        }
+
+        .header-nav {
+            @include alignCenter();
+        }
+        .header-user {
+            @include alignCenter();
+
+            .nav-link-custom {
+                font-size: 1.2rem;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.user-login {
+    margin-left: 20px;
+    vertical-align: bottom;
+    color: $main-color;
+
+    &:hover {
+        color: $hover-color;
+        text-decoration: none;
+    }
+}
+.list-cart {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.cart-item {
+    display: flex;
+    width: 300px;
+
+    .cart-item-img {
+        max-width: 20%;
+        margin-right: 20px;
+    }
+    .cart-item-detail {
+        // max-width: 200px;
+        width: 70%;
+
+        .nav-item-custom {
+            width: 100%;
+            font-size: 0.7rem;
+            word-wrap: break-word;
+            color: #000;
+
+            &:hover {
+                text-decoration: none;
+                color: $hover-color;
+            }
+        }
+    }
+}
+
+.cart-control {
+    display: flex;
+    flex-direction: column;
+
+    .btn-checkout {
+        background-color: $hover-color;
+    }
+
+    .total-price {
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+}

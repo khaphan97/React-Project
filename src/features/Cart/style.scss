@@ -1,0 +1,60 @@
+@import "../../assets/css/_variables.scss";
+
+.table {
+    .product-thumb {
+        width: 90px;
+    }
+    .product-price {
+        padding: 0 30px;
+        width: 120px;
+    }
+
+    td {
+        font-size: 14px;
+        vertical-align: middle !important;
+        padding: 30px 0;
+    }
+}
+.cart-wrapper {
+    min-height: 50vh;
+}
+
+.cart-total {
+    padding: 0 30px;
+    border-left: 1px solid #ddd;
+    height: 100%;
+
+    .cart-total-box {
+        position: sticky;
+        top: 80px;
+    }
+
+   
+
+    .btn-checkout {
+        background-color: $hover-color;
+        color: #fff;
+        &:hover {
+            background-color: #e2b948d0;
+            border: 0;
+        }
+    }
+}
+
+.cart-info-item {
+    a {
+        width: 65%;
+    }
+    
+}
+
+th {
+    text-transform: uppercase;
+}
+td {
+    text-align: center;
+}
+
+strong {
+    float: right;
+}
